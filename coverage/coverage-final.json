@@ -1,2 +1,1 @@
-{"C:\\Users\\použivatel\\skola\\essproject\\react-portfolio\\src\\components\\About\\AboutMe.js": {"path":"C:\\Users\\použivatel\\skola\\essproject\\react-portfolio\\src\\components\\About\\AboutMe.js","statementMap":{"0":{"start":{"line":4,"column":1},"end":{"line":39,"column":3}}},"fnMap":{"0":{"name":"AboutMe","decl":{"start":{"line":3,"column":9},"end":{"line":3,"column":16}},"loc":{"start":{"line":3,"column":19},"end":{"line":40,"column":1}},"line":3}},"branchMap":{},"s":{"0":4},"f":{"0":4},"b":{},"_coverageSchema":"1a1c01bbd47fc00a2c39e90264f33305004495a9","hash":"d7077ff89adea024dc42ab002c4cb2471e1c5ee7"}
-}
+{}
