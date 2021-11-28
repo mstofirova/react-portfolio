@@ -3,14 +3,14 @@ import AboutMe from './AboutMe.js';
 import master from "../../master";
 import React from 'react';
 
-test('render avatar', () => {
+test('testRenderAvatar', () => {
     const main = render (<AboutMe/>);
     const section = main.container.querySelector("section");
     const div = section.querySelector("div");
     expect (div.className).toBe("container");
 })
 
-test('render master info', () => {
+test('testMasterInfo', () => {
     const main = render (<AboutMe/>);
     const section = main.container.querySelector("section");
     const divA = section.querySelector("img");
@@ -18,7 +18,7 @@ test('render master info', () => {
     expect(divA.alt).toBe("avatar");
 })
 
-test('link resume', () => {
+test('testLinkingResume', () => {
     const main = render (<AboutMe/>);
     const section = main.container.querySelector("section");
     expect(

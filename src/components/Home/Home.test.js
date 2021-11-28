@@ -7,7 +7,7 @@ const main = render (<Home/>);
 const section = main.container.querySelector("section");
 
 
-test('check master data ', () => {
+test('testMasterData ', () => {
     expect(
         section.querySelector("h1").textContent)
         .toBe(Data["firstname"]);
@@ -16,7 +16,7 @@ test('check master data ', () => {
         .toBe("First  Name");
 })
 
-test('href have i ', () => {
+test('testHrefHaveI ', () => {
     const a = section.querySelectorAll("a");
     var counter = 0;
     a.forEach( div => {

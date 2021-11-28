@@ -1,8 +1,8 @@
-import { render, screen} from "@testing-library/react";
+import { render } from "@testing-library/react";
 import Footer from './footer.js';
 import React from 'react';
 
-test('form input', () => {
+test('testFormAtribute', () => {
     const main = render (<Footer/>);
         const section = main.container.querySelector("form");
         const t = section.querySelectorAll("input");
@@ -17,7 +17,7 @@ test('form input', () => {
           ).toBe("Sign up");
     })
 
-test('conctact href', () => {
+test('testContact', () => {
 const main = render (<Footer/>);
     const section = main.container.querySelector("div");
     expect(

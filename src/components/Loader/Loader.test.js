@@ -1,7 +1,7 @@
 import { render } from "@testing-library/react";
 import Loader from './Loader.js';
 
-test('render loader', () => {
+test('testRenderLoader', () => {
     const main = render (<Loader/>);
     const div = main.container.querySelector("div");
     expect (div.className).toBe("loaders");

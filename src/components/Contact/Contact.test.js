@@ -5,7 +5,7 @@ const main = render (<Contact/>);
 const divContact = main.container.querySelector("div");
 const divWrapper = divContact.querySelector("div");
 
-test('contact me', () => {
+test('testContactText', () => {
     const divHeader = divWrapper.querySelector("div");
     expect(
         divHeader.querySelector('p').className)
@@ -15,7 +15,7 @@ test('contact me', () => {
         .toBe("Contact Me");
 })
 
-test('contact me', () => {
+test('testFormThings', () => {
     const form = divWrapper.querySelector("form");
     const inputs = form.querySelectorAll("input");
     inputs.forEach(div => {

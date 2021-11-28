@@ -10,13 +10,13 @@ const sm = render (<NavbarSm/>);
 const navSm = sm.container.querySelector("nav");
 
 
-test('check img ', () => {
+test('testCheckImg ', () => {
     expect(
         navLg.querySelector('img').alt)
         .toBe("logo");
 })
 
-test('check ul ', () => {
+test('testUlLi ', () => {
     const ul = navLg.querySelector("ul");
     const li = ul.querySelectorAll("li");
     var counter = 0;
@@ -28,7 +28,7 @@ test('check ul ', () => {
     expect(li.length).toBe(counter);
 })
 
-test('render div navmain ', () => {
+test('testRenderNavMain ', () => {
     const div = navSm.querySelector("div");
     expect(
         div.className)
@@ -38,7 +38,7 @@ test('render div navmain ', () => {
         .toBe("logo");
 })
 
-test('render text ', () => {
+test('testDropdownItem ', () => {
     const li = navSm.querySelector("li");
     expect(
         li.className)
